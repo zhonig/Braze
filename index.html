@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta id="viewport" name="viewport" content="width=device-width"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <link rel="apple-touch-icon" href="images/linux-icon-19.png" />
+        <link rel="icon" type="image/x-icon" href="images/Dakirby309-Simply-Styled-OS-Linux.ico" />
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <script type="text/javascript" src="js/lib/knockout-3.4.2.js"></script>
+        <title>Braze</title>
+	</head>
+	<body>
+		<div>
+			<input data-bind="value: integer" placeholder="Insert Integer to Track Here" />
+			<button data-bind="click: trackInteger">Track Integer</button>
+		</div>
+		<div><button data-bind="click: get_max">Get Max of all tracked integers</button></div>
+		<div><button data-bind="click: get_min">Get Min of all tracked integers</button></div>
+		<div><button data-bind="click: get_mean">Get Mean of all tracked integers</button></div>
+		<div><button data-bind="click: get_mode">Get Mode of all tracked integers</button></div>
+		<div><textarea data-bind="value: output" disabled></textarea></div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
