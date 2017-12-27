@@ -22,3 +22,5 @@ integer_tracker.get_max() # => 3
 integer_tracker.get_min() # => 0
 integer_tracker.get_mean() # => 1.25
 integer_tracker.get_mode() # => 1
+
+Languages used: JavaScript, KnockoutJS, HTML5, CSS
